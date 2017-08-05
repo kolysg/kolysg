@@ -1,6 +1,6 @@
-#Professional Single Page Website
+# Professional Single Page Website
 
-##Tech
+## Tech
 
 JQuery, JavaScript, HTML, CSS
 
@@ -10,7 +10,7 @@ Koly Sengupta
 ## Open Source Template 
 Theme Wagon
 
-##Reference
+## Reference
 http://www.themewagon.com
 
 
