@@ -1,5 +1,17 @@
-# JohnDoe
-A Responsive Free One Page Portfolio Website template
+#Professional Single Page Website
+
+##Tech
+
+JQuery, JavaScript, HTML, CSS
+
+## Created By
+Koly Sengupta
+
+## Open Source Template 
+Theme Wagon
+
+##Reference
+http://www.themewagon.com
 
 
 
