@@ -80,7 +80,7 @@ $(function() {
     $('.proj-btn-2').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').animate({
-            scrollTop: $(".projects-fend").offset().top},
+            scrollTop: $(".projects-ui").offset().top},
         'slow');
         event.preventDefault();
     });
@@ -95,6 +95,17 @@ $(function() {
         event.preventDefault();
     });
 });
+
+
+//read more button
+// $(function() {
+// 	$(.weight-outline-btn).bind('click', function(event) {
+// 		var $anchor = $(this);
+// 		$('readMore_project1').text("Creating Zaps: Integrated application’s (AccountingSuite) API to receive and send data to other  applications using ‘Zapier’ web platform. ")
+// 		event.preventDefault();
+// 	}); 
+// });
+
 
 
 

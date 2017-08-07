@@ -67,7 +67,7 @@ h6::after {
 	content:" ";
 	border:solid 1px #CCCCCC;
 	display:block;
-	width:65px;
+	width:auto;
 	margin-top: 20px;
 }
 /* ==========================================================================HTML5 display definitions========================================================================== */
@@ -617,7 +617,7 @@ h1.arrow span {
 /* ==========================================================================Services========================================================================== */
 .services {
 	margin-top:80px;
-	margin-bottom:40px;
+	/*margin-bottom:40px;*/
 }
 .services .icon {
 	position:relative;
