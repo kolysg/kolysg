@@ -66,7 +66,17 @@ Menu
 //project-buttons
 *******************************************************************************************************************************/ 
 $(function() {
-    $('.proj-btn-1').bind('click', function(event) {
+    $('.proj-btn-ui').bind('click', function(event) {
+        var $anchor = $(this);
+        var $url = $anchor.attr("url");
+        window.open($url, 'new_window');
+        event.preventDefault();
+    });
+});
+
+
+$(function() {
+    $('.proj-btn-app').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').animate({
             scrollTop: $(".projects-ui").offset().top},
@@ -75,20 +85,10 @@ $(function() {
     });
 });
 
-
 $(function() {
-    $('.proj-btn-2').bind('click', function(event) {
+    $('.proj-btn-design').bind('click', function(event) {
         var $anchor = $(this);
-        $('html, body').animate({
-            scrollTop: $(".projects-ui").offset().top},
-        'slow');
-        event.preventDefault();
-    });
-});
 
-$(function() {
-    $('.proj-btn-3').bind('click', function(event) {
-        var $anchor = $(this);
         $('html, body').animate({
             scrollTop: $(".projects-design").offset().top},
         'slow');
