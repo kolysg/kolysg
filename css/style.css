@@ -583,7 +583,7 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #ffa500;
+	background: #32485A;
 }
 
 .color-bg a {
@@ -609,7 +609,7 @@ h1.arrow span {
 }
 .about-text h1 {
 	text-transform:uppercase;
-	font-size:24px;
+	font-size:16px;
 	color: #8C8C8C;
 }
 .color-bg h1.arrow span {
@@ -618,13 +618,20 @@ h1.arrow span {
 .color-bg h1.arrow {
     color: #FFF;
 }
-/* ==========================================================================Services========================================================================== */
+/* ==========================================================================Projects========================================================================== */
 .projects-ui {
 	margin-bottom: 50px;	
 }
 
 .image-caption {
-	padding: 25px;
+	/*padding: 20px;*/
+}
+
+.project-title {
+	font-size:1.2em;
+	font-weight: bold;
+	margin:0.83em 0;
+	text-transform: uppercase;
 }
 
 .services {
@@ -702,7 +709,7 @@ i.respons {
 .responsive-services {
 	position: relative;
 }
-/* ==========================================================================Portfolio========================================================================== */
+/* ==========================================================================Design========================================================================== */
 .swag {
 	padding:40px 0;
 }
@@ -775,7 +782,7 @@ img.grayscale:hover {
 }
 .effects .img img {
 	display:block;
-	margin:0;
+	margin:10px;
 	padding:0;
 	height:auto;
 }
@@ -1213,7 +1220,7 @@ ul.slides li {
 	.about-image {
 		/*height:800px;
 		margin: 0px 200px;*/
-		height: 600px;
+		height: 400px;
 		-webkit-background-size:cover;
 		-moz-background-size:cover;
 		-o-background-size:cover;
