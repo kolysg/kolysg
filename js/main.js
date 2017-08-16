@@ -47,17 +47,17 @@ Menu
 		*/
 	}
 
-	// function toggleMenu() {
-	// 	if( isOpen ) {
-	// 		classie.remove( bodyEl, 'show-menu' );
-	// 	}
-	// 	else {
-	// 		classie.add( bodyEl, 'show-menu' );
-	// 	}
-	// 	isOpen = !isOpen;
-	// }
+	function toggleMenu() {
+		if( isOpen ) {
+			classie.remove( bodyEl, 'show-menu' );
+		}
+		else {
+			classie.add( bodyEl, 'show-menu' );
+		}
+		isOpen = !isOpen;
+	}
 
-	// init();
+	init();
 
 })();
 
