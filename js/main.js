@@ -32,10 +32,10 @@ Menu
 	}
 
 	function initEvents() {
-		openbtn.addEventListener( 'click', toggleMenu );
-		if( closebtn ) {
-			closebtn.addEventListener( 'click', toggleMenu );
-		}
+		// openbtn.addEventListener( 'click', toggleMenu );
+		// if( closebtn ) {
+		// 	closebtn.addEventListener( 'click', toggleMenu );
+		// }
 
 		/* close the menu element if the target it´s not the menu element or one of its descendants..
 		content.addEventListener( 'click', function(ev) {
@@ -47,17 +47,17 @@ Menu
 		*/
 	}
 
-	function toggleMenu() {
-		if( isOpen ) {
-			classie.remove( bodyEl, 'show-menu' );
-		}
-		else {
-			classie.add( bodyEl, 'show-menu' );
-		}
-		isOpen = !isOpen;
-	}
+	// function toggleMenu() {
+	// 	if( isOpen ) {
+	// 		classie.remove( bodyEl, 'show-menu' );
+	// 	}
+	// 	else {
+	// 		classie.add( bodyEl, 'show-menu' );
+	// 	}
+	// 	isOpen = !isOpen;
+	// }
 
-	init();
+	// init();
 
 })();
 
